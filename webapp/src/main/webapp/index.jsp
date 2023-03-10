@@ -5,7 +5,7 @@
     double num = Math.random();
     if (num > 0.5) {
   %>
-      <h2>Number is ABOVE average - Application running on EC2 Instances Try Again!!</h2><p>(<%= num %>)</p>
+      <h2>Number is ABOVE average - Application running on EC2 Instances in Autoscaling Group Try Again!!</h2><p>(<%= num %>)</p>
   <%
     } else {
   %>
